@@ -58,11 +58,17 @@ function playGame(){
     }
 
     if(humanScore > computerScore){
+        console.log("**********");
         console.log("You WON!!!");
+        console.log("**********");
     } else if(computerScore > humanScore){
+        console.log("**********");
         console.log("You Lose!!!");
+        console.log("**********");
     } else{
+        console.log("**********");
         console.log("Tie!!!");
+        console.log("**********");
     }
 }
 
