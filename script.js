@@ -65,3 +65,5 @@ function playGame(){
         console.log("Tie!!!");
     }
 }
+
+playGame();
